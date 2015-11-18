@@ -1,6 +1,6 @@
 {
   "name": "cfn-api-gateway-integration",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Custom::ApiGatewayIntegration | AWS CloudFormation Custom Lambda Resource | API Gateway Integration",
   "main": "index.js",
   "scripts": {
