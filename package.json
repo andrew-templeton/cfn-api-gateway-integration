@@ -1,0 +1,39 @@
+{
+  "name": "cfn-api-gateway-integration",
+  "version": "0.1.1",
+  "description": "Custom::ApiGatewayIntegration | AWS CloudFormation Custom Lambda Resource | API Gateway Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/istanbul/lib/cli cover ./node_modules/mocha/bin/_mocha",
+    "cfn-lambda-deploy": "chmod +x ./node_modules/cfn-lambda/deploy.sh && ./node_modules/cfn-lambda/deploy.sh;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-templeton/cfn-api-gateway-integration.git"
+  },
+  "keywords": [
+    "aws",
+    "cloudformation",
+    "lambda",
+    "backed",
+    "custom",
+    "resource",
+    "api",
+    "gateway",
+    "method",
+    "integration",
+    "rest",
+    "api",
+    "APIG"
+  ],
+  "author": "Andrew Templeton <andrw.tmplton@gmail.com> (https://github.com/andrew-templeton)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew-templeton/cfn-api-gateway-integration/issues"
+  },
+  "homepage": "https://github.com/andrew-templeton/cfn-api-gateway-integration#readme",
+  "dependencies": {
+    "cfn-lambda": "0.6.1",
+    "aws-sdk": "2.2.17"
+  }
+}
