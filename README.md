@@ -26,7 +26,7 @@ This Lambda makes use of the Lambda-Backed CloudFormation Custom Resource flow m
         "ServiceToken": "arn:aws:lambda:<cfn-region-id>:<your-account-id>:function:<this-deployed-lambda-name>",
         "Type": "AWS", // REQUIRED string enum: HTTP | AWS | MOCK
         "RestApiId": "zyxwvutsrq", // REQUIRED 10 char alphanum ID
-        "ResourceId": "abcdefghij", // REQUIRED 10 char alphanum ID
+        "ResourceId": "abcdefghij", // REQUIRED alphanum API Resource ID
         "HttpMethod": "GET", // REQUIRED Method request method to attach integration to
         "IntegrationHttpMethod":"POST", // Method on *backend* to hit
         // Can be AWS ARN URI... This is, for example, for a Lambda function...
