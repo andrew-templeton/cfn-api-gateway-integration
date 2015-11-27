@@ -1,6 +1,6 @@
 {
   "name": "cfn-api-gateway-integration",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Custom::ApiGatewayIntegration | AWS CloudFormation Custom Lambda Resource | API Gateway Integration",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/andrew-templeton/cfn-api-gateway-integration#readme",
   "dependencies": {
-    "cfn-lambda": "0.6.1",
-    "aws-sdk": "2.2.17"
+    "cfn-lambda": "0.8.0",
+    "aws-sdk": "2.2.19"
   }
 }
